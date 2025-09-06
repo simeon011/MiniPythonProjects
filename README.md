@@ -54,5 +54,18 @@ Enjoy🤗
 ### 📷Preview
 <img width="271" height="197" alt="Screenshot 2025-07-23 233020" src="https://github.com/user-attachments/assets/04f54651-57c6-4466-9610-e2138b24e14e" />
 
+
+<summary>2. ✅ To-Do App (Tkinter)</summary>
+
+---
+
+### Notes:
+
+  This is a **desktop to-do list application** written in**Python with Tkinter**.
+  It allows users to create a titled to-do list, add tasks dynamically, and mark them as In Progress or Completed with an interactive interface.
+  
+
   
 </details>
+
+
