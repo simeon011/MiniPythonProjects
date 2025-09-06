@@ -8,17 +8,17 @@ Enjoy🤗
 <details>
 <summary>1. 📝 To-Do List</summary>
   
-  #### Notes:
+  ### Notes:
   
   This is a console-based to-do list application written in Python. It allows users to create .txt files as task lists, add tasks with automatic numbering, view tasks, delete specific tasks by number, and exit safely.
-  ### ⚙️ Features:
+  ## ⚙️ Features:
   
   - ✅ Create a new task file (only .txt allowed)
   - 📄 Show all tasks in a file
   - ➕ Add tasks (prevents duplicates, auto-numbered)
   - 🗑️ Delete a task by its number
   - 💾 Exit the program gracefully
-  ### 🔍 Function Overview
+  ## 🔍 Function Overview
   
   - create_file()
   
@@ -43,7 +43,7 @@ Enjoy🤗
 - save_and_leave()
 
   - Exits the program
- ### 💻Mini project to practice Python basics such as: 
+ ## 💻Mini project to practice Python basics such as: 
  
  - File handling
 - Loops
@@ -51,21 +51,93 @@ Enjoy🤗
 - List operations
 - String manipulation
 - Console input/output
-### 📷Preview
+## 📷Preview
 <img width="271" height="197" alt="Screenshot 2025-07-23 233020" src="https://github.com/user-attachments/assets/04f54651-57c6-4466-9610-e2138b24e14e" />
+</details>
 
 
-<summary>2. ✅ To-Do App (Tkinter)</summary>
+<details>
+  <summary>2. ✅ To-Do App (Tkinter)</summary>
 
----
+  ---
 
-### Notes:
+  ## Notes:
 
   This is a **desktop to-do list application** written in**Python with Tkinter**.
   It allows users to create a titled to-do list, add tasks dynamically, and mark them as In Progress or Completed with an interactive interface.
   
+  ---
 
+  ## ⚙️ Features:
+
+   - 📝 **Create a new to-do list** with a custom title
+
+   - ➕ **Add tasks** dynamically with an input field
+
+   - 🔄 **Toggle task status** between In Progress and Completed
+
+   - ✅ Completed tasks are shown with a **strike-through effect**
+
+   - ⚠️ Validation – prevents adding empty tasks
+
+   - 🎨 Simple and user-friendly GUI
   
-</details>
+  ---
 
+  ## 🔍 Function Overview
+
+   - **create_title()**
+
+      - Prompts the user to enter a title for the to-do list
+
+      - Updates the window title dynamically
+
+      - Shows the "Add" button after the title is set
+
+  - **show_add_button()**
+
+      - Displays the "Add" button to insert a new task
+
+   - **add_task_row()**
+
+      - Provides an entry field to add a task
+
+      - Prevents saving empty tasks
+
+      - Creates a row with the task text and a status checkbox
+
+      - Marks tasks with strike-through when completed
+
+  - **toggle_status()**
+
+      - Switches a task between In Progress and Completed
+
+      - Updates task label style accordingly
+
+  - **init_tasks_frame()**
+
+      - Initializes the frame that holds all task rows
+  
+  ---
+
+  ## 💻 Mini project to practice Python basics such as:
+
+   - Tkinter GUI programming
+
+   - Event handling with buttons and checkboxes
+
+   - Dynamic widget creation and management
+
+   - Conditional logic
+
+   - String validation
+
+   - List management for tasks
+  
+  ---
+
+  ## 📷 Preview
+  
+
+</details>
 
