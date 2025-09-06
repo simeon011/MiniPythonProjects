@@ -137,7 +137,10 @@ Enjoy🤗
   ---
 
   ## 📷 Preview
-  
+  <img width="498" height="452" alt="image" src="https://github.com/user-attachments/assets/9a126f57-af1f-41f3-b141-3e0203fb9fd5" />
+  <img width="495" height="443" alt="image" src="https://github.com/user-attachments/assets/b48e102f-8b33-4e6a-8171-04d9ed2c00a8" />
+
+
 
 </details>
 
