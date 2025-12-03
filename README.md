@@ -144,3 +144,135 @@ Enjoy🤗
 
 </details>
 
+
+  <details>
+    <summary>3. 🔑Password Manager</summary>
+
+  ## 📌 Notes
+
+This is a **console-based Password Manager** written in Python.
+It saves account credentials (website, username, password) inside a **JSON file**, allowing the user to generate passwords, store them, preview them, and delete them safely.
+
+---
+
+## ⚙️ Features
+
+
+ - 🔑 Generate random passwords
+
+ - ➕ Save website + username + password
+
+ - 📁 Stores all data inside a JSON file
+
+ - 👀 Show all saved passwords
+
+ - 🗑 Delete a specific website entry
+
+ - 💾 Keeps data permanently even after closing the program
+
+ - 🛡 Blocks deletion if the site doesn’t exist
+
+ - ❗ Prevents showing or deleting empty data
+
+   ---
+
+  ## 🔍 Function Overview 
+```create_random_password()```
+
+ - Asks user for desired password length
+
+ - Uses built-in printable characters (digits, symbols, letters)
+
+ - Generates a secure random password
+
+ - Displays it on screen (does not save automatically)
+
+   ``create_file()``
+ - Checks if passwords.json exists
+
+ - If not, creates it
+
+ - Initializes it as an empty JSON dictionary: {}
+
+   ``load_passwords()``
+ - Opens passwords.json and reads its contents
+
+ - Returns all stored credentials as a Python dictionary
+
+``save_passwords(data)``
+ - Saves the updated dictionary back to passwords.json
+
+ - Uses indent=4 for readable formatting
+
+ - Overwrites the old file safely
+
+``add_password()``
+
+ - Asks the user for:
+
+     - 🌐 Website
+
+     - 👤 Username
+
+     - 🔑 Password
+
+ - Adds values to the JSON dictionary
+
+ - Saves instantly
+
+ - Confirms success
+
+ ``show_password()``
+  - Displays all saved credentials in a formatted table:
+
+    ``🌐 Site | 👤 Username | 🔑 Password``
+
+
+ - If no passwords are stored, shows a warning
+
+``delete_password()``
+ - Asks for a website name
+
+ - Checks if it exists in the database
+
+ - If found, confirms with user (Y/N)
+
+ - Deletes only after approval
+
+ - Cancels safely if declined
+
+``menu()``
+ - Displays program options in a loop:
+  ```
+    1. Create a new password
+    2. Add a password
+    3. Show all passwords
+    4. Delete a password
+    5. Exit
+  ```
+
+
+ - Calls the appropriate functions based on user choice
+
+ - Ends the program when “Exit” is selected
+
+ ---
+
+ ## 💻 Mini Project to Practice Python Basics Such As:
+
+ - 📦 JSON file handling
+
+ - 🔁 Loops and control flow
+
+ - 🧠 Logic & decision making
+
+ - 🔤 String manipulation
+
+ - 🎛 Console input/output
+
+ - 📄 Working with dictionaries (dict)
+
+ - 🎲 Random password generation
+  
+  </details>
+  
