@@ -275,4 +275,92 @@ It saves account credentials (website, username, password) inside a **JSON file*
  - 🎲 Random password generation
   
   </details>
+
+
+  <details>
+  <summary>3. 🃏 Blackjack Game (Python Console App)</summary>
+
+  ---
+
+  ## Notes:
+
+  This is a **console-based Blackjack game** developed in **Python**, following object-oriented programming principles.
+  The game simulates a realistic Blackjack experience with a player and a dealer, using multiple decks, automatic reshuffling, and standard Blackjack rules.
+
+  ---
+
+  ## ⚙️ Features:
+
+   - 🃏 **Realistic Blackjack gameplay** (Player vs Dealer)
+
+   - 🧩 **Object-Oriented Design** with separate classes for Card, Deck, Player, Dealer, and Game logic
+
+   - 🔁 **Multiple decks support** (default: 6 decks)
+
+   - 🔄 **Automatic deck reshuffle** when cards run low
+
+   - 🎯 **Accurate score calculation**, including Ace value adjustment (1 or 11)
+
+   - 🃎 **Natural Blackjack detection** (player or dealer)
+
+   - 🤖 **Dealer logic** – dealer must hit until reaching 17
+
+   - ⌨️ **Interactive user input** (Hit / Stand)
+
+   - 🔁 **Replay option** after each round
+
+  ---
+
+  ## 🔍 Class & Method Overview
+
+  ### **Card**
+   - Represents a single playing card (rank and suit)
+   - **get_value()** – returns the card’s Blackjack value
+   - **__str__()** – returns a readable card representation
+
+  ### **Deck**
+   - Creates and manages one or more standard card decks
+   - **shuffle()** – shuffles all cards randomly
+   - **draw()** – draws a card and reshuffles automatically if the deck is low
+
+  ### **Player**
+   - Manages the player’s hand and score
+   - **add_card()** – adds a card to the hand
+   - **get_score()** – calculates total hand score with Ace handling
+   - **show_hand()** – displays cards and score
+   - **reset_hand()** – clears the hand for a new round
+
+  ### **Dealer (inherits Player)**
+   - Overrides **show_hand()** to hide one card until reveal
+   - Reveals full hand during the dealer’s turn
+
+  ### **BlackjackGame**
+   - Controls the overall game flow
+   - **deal_initial_cards()** – deals two cards to player and dealer
+   - **check_for_natural_blackjack()** – checks for immediate Blackjack
+   - **player_turn()** – handles player actions (Hit / Stand)
+   - **dealer_turn()** – applies dealer rules (hit until 17)
+   - **determine_winner()** – compares scores and declares the result
+   - **play_round()** – runs a full game round
+
+  ---
+
+  ## 💻 Mini project to practice Python concepts such as:
+
+   - Object-Oriented Programming (OOP)
+
+   - Class inheritance and method overriding
+
+   - Game logic and flow control
+
+   - User input handling
+
+   - Conditional logic and loops
+
+   - Working with randomization
+
+   - Clean code structure and readability
+
+  ---
+</details>
   
