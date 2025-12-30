@@ -363,4 +363,115 @@ It saves account credentials (website, username, password) inside a **JSON file*
 
   ---
 </details>
+
+<details>
+  <summary>🤖 Telegram Investment Bot</summary>
+
+  ---
+
+  ## 📝 Notes
+
+  This project is a **Telegram Bot developed in Python**, designed to provide users with **real-time investment-related information**, including **financial news** and **current stock/crypto prices**.
+  The bot is built using the **python-telegram-bot** library and follows a **modular structure**, separating configuration, handlers, and business logic for better readability and maintainability.
+
+  The application demonstrates practical usage of **external APIs**, **asynchronous programming**, and **clean project architecture**.
+
+  ---
+
+  ## ⚙️ Features
+
+  - 🤖 **Telegram Bot integration**
+  - 📰 **Latest global investment news**
+    - Uses **NewsAPI** to fetch business-related headlines
+  - 💹 **Real-time price lookup**
+    - Retrieves stock and cryptocurrency prices via **Yahoo Finance (yfinance)**
+  - ⌨️ **Command-based interaction**
+    - `/start` – welcome message
+    - `/news` – latest investment news
+    - `/price <TICKER>` – current price of a stock or crypto
+  - 🧩 **Modular code structure**
+    - Separate files for configuration, handlers, services, and app startup
+  - ⚡ **Asynchronous handlers**
+    - Efficient non-blocking command execution
+  - 🔐 **API key management**
+    - Sensitive keys stored in a dedicated configuration file
+
+  ---
+
+  ## 🔍 File & Function Overview
+
+  ### **config.py**
+  Stores sensitive configuration data.
+
+  - `TELEGRAM_TOKEN` – Telegram Bot API token
+  - `NEWS_API_KEY` – API key for NewsAPI
+
+  ---
+
+  ### **main.py**
+  Entry point of the application.
+
+  - Initializes the Telegram bot application
+  - Registers command handlers
+  - Starts polling for user messages
+
+  **Key Responsibilities:**
+  - Application setup
+  - Command routing
+  - Bot lifecycle management
+
+  ---
+
+  ### **handlers.py**
+  Contains all Telegram command handlers.
+
+  - **start()**
+    - Sends a welcome message to the user
+  - **news_handler()**
+    - Fetches and displays the latest investment news
+  - **price_handler()**
+    - Returns the current price of a given ticker symbol
+  
+
+  ---
+
+  ### **service.py**
+  Handles external API communication and business logic.
+
+  - **get_news_api(api_key)**
+    - Fetches top business headlines from NewsAPI
+    - Formats the response in a readable message
+  - **current_price(ticker)**
+    - Retrieves the latest price and currency for a given stock or crypto symbol
+
+  ---
+
+  ## 💻 Python Concepts Practiced
+
+  - Asynchronous programming (`async / await`)
+  - Working with external APIs
+  - Telegram Bot development
+  - Modular project architecture
+  - Separation of concerns
+  - HTTP requests handling
+  - Data formatting and validation
+  - Secure configuration management
+
+  ---
+
+  ## 🎯 Project Purpose
+
+  This project is suitable for:
+  - Practicing **Python API integration**
+  - Learning **Telegram Bot development**
+  - Demonstrating real-world usage of external services
+  
+
+  ---
+
+  ## 🧪 Try
+  You can try bot here - https://web.telegram.org/a/#8331211543
+
+
+</details>
   
