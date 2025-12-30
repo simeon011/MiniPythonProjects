@@ -21,7 +21,6 @@ async def price_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     result = current_price(ticker)
     await update.message.reply_text(result)
 
-.
 
 
 
