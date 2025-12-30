@@ -22,7 +22,6 @@ async def price_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(result)
 
 
-async def gabi(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️Обичам те!❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️")
+
 
 
