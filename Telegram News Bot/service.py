@@ -1,5 +1,8 @@
+
+
 import requests
 import yfinance as yf
+import feedparser
 
 
 def get_news_api(api_key):
@@ -21,3 +24,7 @@ def current_price(ticker):
     price = stock.fast_info['last_price']
     currency = stock.fast_info['currency']
     return f"Price of {ticker} is {price:.3f} {currency}"
+
+
+
+
