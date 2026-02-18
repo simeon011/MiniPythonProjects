@@ -278,7 +278,7 @@ It saves account credentials (website, username, password) inside a **JSON file*
 
 
   <details>
-  <summary>3. 🃏 Blackjack Game (Python Console App)</summary>
+  <summary>4. 🃏 Blackjack Game (Python Console App)</summary>
 
   ---
 
@@ -365,7 +365,7 @@ It saves account credentials (website, username, password) inside a **JSON file*
 </details>
 
 <details>
-  <summary>🤖 Telegram Investment Bot</summary>
+  <summary>5. 🤖 Telegram Investment Bot</summary>
 
   ---
 
